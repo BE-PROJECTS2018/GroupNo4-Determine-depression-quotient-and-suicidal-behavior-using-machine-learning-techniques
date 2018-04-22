@@ -19,5 +19,6 @@ For all the methods that follow, change the values of TRAIN_PROCESSED_FILE, TEST
 8.	For test data set, format is id, tweet
 9.	One pred file used thrice on same user changing the hdf5 file for the respective type everytime
 10.	In pred use hdf5 files starting from cnn only, the latest and from the corresponding folder for the type for which prediction is being made
-
+11.  Run scoring.py to calculate a score for individual tweets using their classes
+12. Use the scores generated to form a auto regression model using auto_reg.py and get the final depression quotient using depression_quotient.py
 
